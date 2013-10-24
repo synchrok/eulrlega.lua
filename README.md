@@ -2,6 +2,7 @@
 
 Simple Korean Stemming Module for find appropriate Particle.
 Lua에서 문자열 뒤에 붙을 말이 을(이/은)인지 를(가/는)인지 알려줍니다.
+(Corona SDK 용 예제도 포함되어 있습니다.)
 
 ## Usage & Examples
 
@@ -19,10 +20,11 @@ get_eulrl(word), get_ega(word), get_eunnn(word) : return appropriate Particle
     
     local a, b = "테스트", "타겟"
     print(a .. get_ega(a) .. " " .. b .. get_eulrl(b) .. " 공격했습니다!")
+    => 테스트가 타겟을 공격했습니다!
     
-    print(string.format("오늘%s 치킨%s 시켜먹었는데 맛%s.. 치느님%s 역시 날 실망시키지 않으셨다", 
+    print(string.format("오늘%s 치킨%s 시켜먹었는데 맛%s.. 치느님%s 역시 날 실망시키지 않으셨다.", 
     get_eunnn("오늘"), get_eulrl("치킨"), get_ega("맛"), get_eunnn("치느님")))
-
+    => 오늘은 치킨을 시켜먹었는데 맛이.. 치느님은 역시 날 실망시키지 않으셨다.
 
 ## License
 
