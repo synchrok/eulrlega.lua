@@ -1,8 +1,10 @@
 # eulrlega.lua
 
 Simple Korean Stemming Module for find appropriate Particle.
-Lua에서 문자열 뒤에 붙을 말이 을(이/은)인지 를(가/는)인지 알려줍니다.
-(Corona SDK 용 예제도 포함되어 있습니다.)
+
+* Lua에서 문자열 뒤에 붙을 말이 을(이/은)인지 를(가/는)인지 알려줍니다.
+
+* Corona SDK 용 예제도 포함되어 있습니다.
 
 ## Usage & Examples
 
@@ -33,7 +35,7 @@ WTFPL(Do What the Fuck You Want to Public License)
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 Version 2, December 2004
 
-Copyright (C) 2004 Azur3Sky <admin@steelheartdev.me>
+Copyright (C) 2013 Woosung Jeon (synchrok, ceo@viewide.kr)
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
