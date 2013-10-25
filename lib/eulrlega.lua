@@ -1,7 +1,6 @@
-
 function t( c, a, b ) if c then return a else return b end end
 
-function from_utf8(utf8)
+function from_utf8( utf8 )
     local b0, b1, b2 = string.byte(utf8, 1), string.byte(utf8, 2) % 0x40, string.byte(utf8, 3) % 0x40
     if math.floor(b0 / 0x10) == 0x0E then
         return (b0 % 0x10) * 0x1000 + b1 * 0x40 + b2
