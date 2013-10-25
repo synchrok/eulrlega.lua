@@ -8,11 +8,11 @@ Simple Korean Stemming Module for find appropriate Particle.
 
 ## Usage & Examples
 
-First, Import eulrlega.
+##### First, Import eulrlega.
     
     require("eulrlega")
 
-Second, Just Use!
+##### Second, Just Use!
 
 eulrlega(word) : return true if it have syllable
     
